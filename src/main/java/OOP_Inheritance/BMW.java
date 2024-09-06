@@ -8,5 +8,11 @@ public class BMW extends Car{
 	{
 		System.out.println("BMW Car start....");
 	}
+	
+	@Override
+	public void stop()
+	{
+		System.out.println("BMW Car Stop....");
+	}
 
 }

@@ -11,7 +11,6 @@ public class Application {
 		 */
 
 	    System.out.println(user.name +" "+user.address+" "+user.age+" "+user.getDOB());
-	    System.out.println("-----");
 	}
 		
 		
