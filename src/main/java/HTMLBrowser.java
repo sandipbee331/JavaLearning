@@ -1,4 +1,4 @@
- import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+ //import org.openqa.selenium.htmlunit.HtmlUnitDriver;
  import org.openqa.selenium.WebDriver;
  
 public class HTMLBrowser {
@@ -8,9 +8,9 @@ public class HTMLBrowser {
 	public void testing()
 	{
 	System.setProperty("webdriver.HtmlUnitDriver.driver", "C:\\Users\\Driver\\driver\\htmlunitdriver.exe");
-	WebDriver driver = new HtmlUnitDriver();
-	driver.get("https://google.com");
-	System.out.println(driver.getTitle());
+	//WebDriver driver = new HtmlUnitDriver();
+	//driver.get("https://google.com");
+	//System.out.println(driver.getTitle());
 	}
 	
 	

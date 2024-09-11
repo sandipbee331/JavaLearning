@@ -70,16 +70,8 @@
 			<version>1.0-beta</version>
 		</dependency>
 
-		<dependency>
-			<groupId>APIAutomation</groupId>
-			<artifactId>APIAutomation</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>Nov2022POMSeries</groupId>
-			<artifactId>Nov2022POMSeries</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
+		
 	</dependencies>
 
 

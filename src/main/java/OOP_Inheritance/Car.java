@@ -17,5 +17,14 @@ public class Car {
 		System.out.println("Car -- Refueling");
 	}
 	
+	public static void display()
+	{
+		System.out.println("Car---- Display");
+	}
+	
+	public  final void billing()
+	{
+		System.out.println("Car ----- billing");
+	}
 	
 }

@@ -66,7 +66,7 @@ public class FileManipulation extends Login {
 		List<String[]> extractedData = new ArrayList<>();
 
 		Reader reader = new FileReader(filePath);
-		CSVParser csvParser = new CSVParser(reader, CSVFormat.EXCEL);
+		csvParser csvParser = new CSVParser(reader, CSVFormat.EXCEL);
 
 		for (CSVRecord record : csvParser) {
 			String[] extractedRow = new String[columnsToExtract.length];
