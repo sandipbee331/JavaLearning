@@ -2,6 +2,29 @@ package OOP_Interface;
 
 public class FortisHospital implements USMedical,UKMedical, IndiaMedical {
 	
+	
+	public static void main(String [] args)
+	{
+		USMedical us1 = new FortisHospital();
+		us1.cardioService();
+		us1.covidVacination();
+		us1.dentalService();
+		us1.ENTService();
+		System.out.println("===================");
+		WHO who = new FortisHospital();
+		who.covidVacination();
+		who.pandemicRule();
+		
+	}
+	
+	@Override
+	public void userRegistration()
+	{
+		System.out.println("FH===userRegistration");
+	}
+		
+	
+	
 	//US
 	@Override
 	public void cardioService() {
@@ -26,7 +49,7 @@ public class FortisHospital implements USMedical,UKMedical, IndiaMedical {
 	}
 
 	@Override
-	public void gynoService() {
+	public  void gynoService() {
 		System.out.println("FH=== gynoService");
 		
 	}
@@ -69,8 +92,21 @@ public class FortisHospital implements USMedical,UKMedical, IndiaMedical {
 		System.out.println("FH=== insuranceService");
 	}
 
-	USMedical us = new FortisHospital();
-	us.cardioService
+	//USMedical us = new FortisHospital();
+
+	//WHO
+	@Override
+	public void covidVacination() {
+		System.out.println("FH=== covidVacination");
+		
+	}
+
+	@Override
+	public void pandemicRule() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	
 	
 	

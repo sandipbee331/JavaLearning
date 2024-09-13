@@ -1,6 +1,6 @@
 package OOP_Interface;
 
-public interface IndiaMedical {
+public interface IndiaMedical extends WHO {
 	
 	public void BurnService();
 	
