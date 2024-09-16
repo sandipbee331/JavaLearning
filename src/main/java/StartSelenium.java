@@ -11,10 +11,11 @@ public class StartSelenium {
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[@aria-label=\"Mobiles\"]")).click();
-		driver.findElement(By.xpath("//div[@title=\"Apple\"]")).click();
+		driver.findElement(By.xpath("//div[@title=\"Google\"]")).click();
+
 		System.out.println("close");
 		//driver.quit();
-		driver.close();
+		//driver.close();
 		
 	}
 
