@@ -14,16 +14,11 @@ public class StartSelenium {
 		driver.findElement(By.xpath("//div[@title=\"Google\"]")).click();
 
 		System.out.println("close");
-<<<<<<< HEAD
 		driver.quit();
-=======
 		//driver.quit();
-<<<<<<< HEAD
 		//driver.close();
-=======
->>>>>>> 71ba16887dc14d39f7dc839559ff7400c95c99af
 		driver.close();
->>>>>>> 9ca043101556abe42681ef0b2438013bb8302737
+
 		
 	}
 
