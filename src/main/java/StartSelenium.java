@@ -16,15 +16,9 @@ public class StartSelenium {
 		System.out.println("close");
 		driver.quit();
 		//driver.quit();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 		//driver.close();
-=======
->>>>>>> 71ba16887dc14d39f7dc839559ff7400c95c99af
->>>>>>> c0bade69a34abfc0e62f0bb7c1850d7a2aba6d9c
 		driver.close();
->>>>>>> 9ca043101556abe42681ef0b2438013bb8302737
+
 		
 	}
 
