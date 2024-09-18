@@ -4,7 +4,7 @@ public class PageTest {
 
 	public static void main(String[] args) {
 
-		LoginPage lp = new LoginPage();
+		LoginPage lp = new LoginPage(10);
 		lp.launchURL();
 		lp.resetPass();
 		lp.getTitle();
@@ -12,14 +12,15 @@ public class PageTest {
 		lp.pageLoadingTime();
 		LoginPage.pageCycle();
 		Page.pageCycle();
+		lp.privacyPolice();
 		
 		
-		Page page = (Page) LoginPage();
-		page.();
 		
 		
 		
 		
 	}
+
+	
 
 }

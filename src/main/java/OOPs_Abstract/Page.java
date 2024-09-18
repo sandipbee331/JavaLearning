@@ -1,6 +1,16 @@
 package OOPs_Abstract;
 
-public abstract class Page {
+public abstract class Page implements Web{
+	
+	public Page()
+	{
+		System.out.println("Page === Default constructor");
+	}
+	
+	public Page(int a)
+	{
+		System.out.println("Page === Default constructor" + a);
+	}
 	
 	public abstract void launchURL();
 	
