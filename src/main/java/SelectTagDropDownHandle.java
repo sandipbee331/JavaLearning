@@ -26,8 +26,8 @@ public class SelectTagDropDownHandle {
 		//sel.selectByVisibleText("France");
 		//doSelectDropDownByIndex(country, 10);
 		//doSelectDropDownByValue(country, "Gabon");
-		doSelectDropDownByText(country, "French Southern Territories");
-		
+		//doSelectDropDownByText(country, "French Southern Territories");
+		doSelectDropDownByValue(country, "French Southern Territories");
 		
 		
 	}
